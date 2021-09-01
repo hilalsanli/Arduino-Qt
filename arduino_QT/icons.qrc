@@ -1,0 +1,17 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>v.png</file>
+    <file>icons/800px_COLOURBOX3110535.jpg</file>
+    <file>800px_COLOURBOX3110535.jpg</file>
+    <file>nesnelerin-interneti.jpg</file>
+    <file>v.png</file>
+    <file>v.png</file>
+    <file>nesnelerin-interneti.jpg</file>
+    <file>images.png</file>
+    <file>b.png</file>
+    <file>ardunio.jpg</file>
+    <file>indir.png</file>
+    <file>indir.png</file>
+    <file>a.png</file>
+  </qresource>
+</RCC>

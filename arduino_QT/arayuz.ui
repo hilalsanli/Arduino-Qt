@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1125</width>
+    <height>863</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>10</y>
+      <width>561</width>
+      <height>801</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+background-image: url(:/icons/icons/800px_COLOURBOX3110535.jpg);
+border-radius:20px;
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QFrame" name="frame_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>520</y>
+       <width>541</width>
+       <height>271</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+background:rgb(8 ,126, 176);
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QTextBrowser" name="txt_log_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>521</width>
+        <height>251</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTextBrowser{
+background-color:white;
+}</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="btn_baglan">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>161</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+color:white;
+background:2px solid rgb(28 ,15, 69);
+font-family:Times New Roman;
+font-size:15px;
+border-radius:10px;
+border:2px solid #f2f2f2
+}
+QPushButton:hover{
+background:rgb(250,0,0);
+}</string>
+     </property>
+     <property name="text">
+      <string>BAĞLAN</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_baglan_8">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>380</y>
+       <width>101</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+color:white;
+background:2px solid rgb(28 ,15, 69);
+font-family:Times New Roman;
+font-size:15px;
+border-radius:10px;
+border:2px solid #f2f2f2
+}
+</string>
+     </property>
+     <property name="text">
+      <string>COM</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_baglanti_kes_3">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>40</y>
+       <width>151</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+color:white;
+background:2px solid rgb(28 ,15, 69);
+font-family:Times New Roman;
+font-size:15px;
+border-radius:10px;
+border:2px solid #f2f2f2
+}
+QPushButton:hover{
+background:rgb(250,0,0);
+}</string>
+     </property>
+     <property name="text">
+      <string>BAĞLANTI KES</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="cmb_com_3">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>380</y>
+       <width>281</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QComboBox{
+background:2px solid rgb(0,0,0);
+
+border-bottom:2px solid #f2f2f2
+
+border: none;
+
+
+
+}</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_baglan_9">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>450</y>
+       <width>101</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+color:white;
+background:2px solid rgb(28 ,15, 69);
+font-family:Times New Roman;
+font-size:15px;
+border-radius:10px;
+border:2px solid #f2f2f2
+}
+</string>
+     </property>
+     <property name="text">
+      <string>BAUD</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="cmb_baud_3">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>450</y>
+       <width>281</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QComboBox{
+background:2px solid rgb(0,0,0);
+
+border-bottom:2px solid #f2f2f2
+
+border: none;
+
+
+}</string>
+     </property>
+     <property name="frame">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_kaydet_3">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>40</y>
+       <width>171</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+color:white;
+background:2px solid rgb(28 ,15, 69);
+font-family:Times New Roman;
+font-size:15px;
+border-radius:10px;
+border:2px solid #f2f2f2
+}
+QPushButton:hover{
+background:rgb(250,0,0);
+}</string>
+     </property>
+     <property name="text">
+      <string>KAYDET</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1125</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>
